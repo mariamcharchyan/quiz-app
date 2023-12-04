@@ -68,7 +68,7 @@ const Quiz: React.FC = () => {
             </div>
         :<div className={styles.card}>
             <h1>Your score is {userScore} / {questions.length} </h1>
-            
+
         </div>}
         {userScore === 0 ?
             <div >
@@ -76,7 +76,7 @@ const Quiz: React.FC = () => {
                     Finish
                 </button>
             </div>
-        :''}
+        :<></>}
     </div>
   );
 };
