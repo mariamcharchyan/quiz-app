@@ -1,0 +1,76 @@
+/* styles/Quiz.module.scss */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.button{
+    border-radius: 5px;
+    color:white;
+    background-color: #2f4f4f;
+    width: 300px;
+    height: 40px;
+    font-size:20px;
+    cursor: pointer;
+
+    &:active {
+        box-shadow: 0 5px 15px #2f4f4f;
+    }
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 2px solid #2f4f4f;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    color: #2f4f4f;
+    width: 400px;
+    min-height: 450px;
+    .options {
+        display: flex;
+        flex-direction: column;
+    
+        label {
+            margin-bottom: 10px;
+        }
+    }
+
+    p{
+        font-size: 40px;
+        color: #2f4f4f;
+    }
+}
+
+.cardButton{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+
+
+    
+
+    button{
+        border-radius: 5px;
+        color:white;
+        background-color: #2f4f4f;
+        width: 90px;
+        height: 30px;
+        font-size:20px;
+        cursor: pointer;
+        
+
+        &:disabled {
+            background-color: #888;
+        }
+
+        &:active {
+            box-shadow: 0 5px 15px #2f4f4f;
+        }
+    }
+    
+}
